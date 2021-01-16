@@ -21,10 +21,17 @@ Simple Project to visualize the Change in Life Expectancy per Continent. Uses th
 ## General Usage
 
 1. Clone the Git repository: `git clone https://github.com/samuelrothen/gapminder_visualization.git`
-2. Install the requirements: `pip install requirements.txt`
-3. Run `/src/visualization_gapminder.py` to create a single Plot. The Year of the Plot can be set with: `createPlot(df, year = 2016)`
-4. To create the Animation, set `create_animation = False` to `True`
 
+2. Install the requirements: `pip install requirements.txt`
+
+3. Run `/src/visualization_gapminder.py` to create a single Plot. The Year of the Plot can be set with: 
+   ```python
+   createPlot(df, year = 2016)
+   ```
+4. To create the Animation, set:
+   ```python
+   create_animation = True
+   ```
 
 ## License
 
